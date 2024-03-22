@@ -9,6 +9,11 @@ html,
 body {
   width: 100%;
   height: 100%;
+  scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar {
+  display: none;
 }
 
 a {
@@ -375,4 +380,109 @@ main {
     font-size: 1vw;
     font-weight: 500;
     opacity: .5;
+}
+
+.part-5{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5vh;
+  width: 100%;
+  margin-top: 250px;
+  /* background-color: red; */
+}
+
+.profile-5{
+  display: flex;
+  gap: 2vw;
+}
+
+.my-pic{
+  width: 4vw;
+  height: 4vw;
+  border-radius: 50%;
+  background-size: cover;
+  background-position: top;
+  background-image: url(https://images.unsplash.com/photo-1508835277982-1c1b0e205603?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+}
+
+.identity h2{
+  font-size: 2vw;
+  font-weight: 500;
+}
+
+#alag-p{
+  font-size: 1vw;
+  font-weight: 500;
+}
+
+.btn-5{
+  display: flex;
+  gap: 2vw;
+}
+
+.btn-5 .btn h4{
+  font-size: .8vw;
+  font-weight: 600;
+}
+
+.part-5 .btn-5 .btn{
+  padding: 1.5vh 2vw;
+  background-color: white;
+  color: black;
+  cursor: text;
+}
+
+.part-5 p{
+  width: 63%;
+  line-height: 1.3;
+  text-align: center;
+  font-size: 1.5vw;
+}
+
+.part-5 .btn{
+  background-color: black;
+  color: white;
+}
+
+.part-5 .btn:hover{
+  background-color: white;
+  color: black;
+}
+
+.icon-5{
+  display: flex;
+  align-items: center;
+  gap: 2vw;
+  font-size: 1.6vw;
+}
+
+footer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 6vh;
+  padding: 10vh 0;
+  width: 100%;
+  margin-top: 100px;
+  /* background-color: red; */
+}
+
+footer .link{
+  display: flex;
+  gap: 2vw;
+  font-size: 1.3vw;
+  color: black;
+  cursor: pointer;
+}
+
+.brand h6{
+  font-size: 1.5vw;
+  font-weight: 300;
+}
+
+.brand h6 i{
+  font-size: 2vw;
 }
