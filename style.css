@@ -1,3 +1,7 @@
+@font-face {
+  font-family: Montserrat;
+  src: url(./assets/fonts/Montserrat-Medium.ttf);
+}
 * {
   margin: 0;
   padding: 0;
@@ -311,8 +315,19 @@ main {
   /* background-color: red; */
 }
 
-.comments i {
-  font-size: 2vw;
+.swiper {
+  width: 70%;
+  height: fit-content;
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-button-next, .swiper-button-prev{
+  color: black;
 }
 
 .main-dabba {
