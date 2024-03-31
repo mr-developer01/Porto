@@ -1,0 +1,197 @@
+@media (max-width: 500px) {
+  .logo {
+    font-size: 2.8vw;
+  }
+  .a-link {
+    display: none;
+  }
+  .btn {
+    padding: 1.4vh 3vw;
+    border-radius: 10px;
+    font-size: 2.5vw;
+  }
+  .profiles {
+    margin-top: 15vh;
+    gap: 3vh;
+  }
+  .pro-pic {
+    align-items: start;
+    justify-content: center;
+    position: relative;
+    height: 9vh;
+    width: 100vw;
+    /* background-color: red; */
+  }
+  .pro-pic p {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    font-size: 5vw;
+  }
+  .pro-img {
+    width: 10vw;
+    height: 10vw;
+  }
+  .p1-item1 {
+    order: 2;
+  }
+  .p1-item2 {
+    order: 1;
+  }
+  .p1-item3 {
+    order: 3;
+  }
+  .heading {
+    font-size: 7vw;
+    text-align: center;
+    font-weight: 500;
+    margin-top: 0px;
+    opacity: 0.7;
+  }
+  .img-cards .top {
+    flex-direction: column;
+    justify-content: initial;
+    gap: 2vh;
+  }
+  .card {
+    width: 100%;
+    height: 40vh;
+  }
+  .cntnt .heading {
+    font-size: 4.5vw;
+    opacity: 0.8;
+  }
+  .cntnt-btn {
+    margin-top: -16px;
+  }
+  .cntnt-btn .btn {
+    padding: 1vh 3vw;
+    font-size: 2.2vw;
+    border: 1px solid white;
+  }
+  .part-3 {
+    margin-top: 70px;
+  }
+  .part-3 h5 {
+    font-size: 10vw;
+    font-weight: 500;
+    opacity: 0.8;
+  }
+  #skill-card {
+    margin-top: 20px;
+    gap: 4vh;
+    width: 100%;
+  }
+  .scard-p {
+    height: 10vh;
+  }
+  .scard h3 {
+    font-size: 3vw;
+    width: 70%;
+  }
+  .scard h3 span {
+    font-size: 2.5vw;
+    font-weight: 500;
+    margin-left: 1vw;
+    opacity: 0.6;
+  }
+  .scard i {
+    font-size: 4vw;
+    opacity: 0.7;
+  }
+  .part-4 {
+    padding: 0 8vw;
+    margin-top: 100px;
+  }
+  .comments {
+    display: flex;
+    align-items: start;
+    justify-content: initial;
+    gap: 4vw;
+    width: 100%;
+    height: fit-content;
+    /* background-color: red; */
+  }
+  .main-dabba {
+    /* background-color: blue; */
+    width: 100%;
+    height: fit-content;
+  }
+  .para-cmnt p {
+    font-size: 2vw;
+  }
+  .para-cmnt {
+    width: 100%;
+    height: 40vh;
+  }
+  .main-dabba .btn {
+    margin-top: -220px;
+    font-size: 3vw;
+  }
+  .swiper {
+    width: 100%;
+    /* background-color: aquamarine; */
+  }
+  .swiper-button-next,
+  .swiper-button-prev {
+    display: none;
+  }
+  .img-one {
+    width: 10vw;
+    height: 10vw;
+  }
+  .cmnt-img-h h3 {
+    font-size: 4vw;
+  }
+  .cmnt-img-h p {
+    font-size: 2vw;
+  }
+  .part-5 {
+    margin-top: 80px;
+    padding: 0 10vw;
+  }
+  .my-pic {
+    width: 15vw;
+    height: 15vw;
+  }
+  .identity h2 {
+    font-size: 8vw;
+    font-weight: 200;
+  }
+  #alag-p {
+    margin-left: -15px;
+    font-size: 4vw;
+    opacity: 0.5;
+  }
+  .part-5 .btn-5 .btn {
+    padding: 2vw 2vw;
+  }
+  .btn-5 .btn h4 {
+    font-size: 2.5vw;
+    opacity: 0.6;
+  }
+  .part-5 p {
+    font-size: 3vw;
+    width: 100%;
+  }
+  .icon-5 i {
+    font-size: 8vw;
+  }
+  footer {
+    padding: 0 10vw;
+    margin-top: 40px;
+  }
+  footer .link {
+    flex-direction: column;
+    align-items: center;
+    font-size: 4vw;
+    opacity: 0.7;
+  }
+  .brand h6 {
+    font-size: 3vw;
+  }
+  .brand h6 i {
+    font-size: 5vw;
+  }
+}
